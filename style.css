@@ -89,7 +89,7 @@ a{
 }
 
 
-.second-section > a{
+.second-section > a, .fourth-section a{
     color: grey;
     font-style: italic;
     line-height: 15px;
@@ -107,7 +107,7 @@ a{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     margin: 0;
-    margin-top: 75px;
+    margin: 75px 0;
     padding: 0;
     gap: 30px;
 
@@ -145,3 +145,22 @@ a{
     margin-right: 10px;
 }
 
+
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.fourth-section a{
+    border-top: 2px solid none;
+    padding: 12.5px;
+    margin: 0;
+
+}
+
+#two{
+    border-top: 2px solid rgb(243, 133, 133);
+    color: rgb(243, 133, 133);
+    font-weight: 800;
+}
