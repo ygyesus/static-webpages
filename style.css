@@ -1,5 +1,5 @@
 body{
-    padding: 35px 70px;
+    padding: 70px 140px;
     background-color: #191E28;
     color: white;
 }
@@ -45,4 +45,59 @@ a{
 }
 
 
+.second-section box-container{
+    background-color: grey
+}
 
+.second-section .grid.box-container{
+    display: inline-grid;
+    height: 20px;
+    width: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 2px;
+    margin: 0;
+    padding: 0;
+    margin-right: -50px;
+}
+
+.second-section .flex.box-container{
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 3.5px;
+}
+
+
+
+.second-section > .box-container > div{
+    background-color: grey;
+}
+.second-section .flex.box-container > div{
+    height: 25%;
+
+}
+
+.second-section{
+    display: flex;
+    justify-content:space-between
+}
+
+
+.second-section > a{
+    color: grey;
+    font-style: italic;
+    line-height: 15px;
+    font-size: 20px;
+}
+
+
+
+
+
+.second-section .flex.box-container{
+    display: inline-flex;
+}
